@@ -1,0 +1,6 @@
+/home/fab/sharefile/projects/GD32VF103_led_light/build/CMakeFiles/drvlib_gd32vf103.dir
+/home/fab/sharefile/projects/GD32VF103_led_light/build/CMakeFiles/LED_GD32VF103.elf.dir
+/home/fab/sharefile/projects/GD32VF103_led_light/build/CMakeFiles/LED_GD32VF103.hex.dir
+/home/fab/sharefile/projects/GD32VF103_led_light/build/CMakeFiles/LED_GD32VF103.bin.dir
+/home/fab/sharefile/projects/GD32VF103_led_light/build/CMakeFiles/edit_cache.dir
+/home/fab/sharefile/projects/GD32VF103_led_light/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,183 @@
+The target system is: Generic -  - GD32VF103
+The host system is: Linux - 5.18.0-kali5-amd64 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/riscv-none-elf-gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/fab/sharefile/projects/GD32VF103_led_light/build/CMakeFiles/3.24.3/CompilerIdC/a.out"
+
+Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+riscv-none-elf-gcc (xPack GNU RISC-V Embedded GCC x86_64) 12.2.0
+Copyright (C) 2022 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/fab/sharefile/projects/GD32VF103_led_light/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_15eb4 && [1/2] Building C object CMakeFiles/cmTC_15eb4.dir/CMakeCCompilerABI.c.obj
+Using built-in specs.
+COLLECT_GCC=/home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/riscv-none-elf-gcc
+Target: riscv-none-elf
+Configured with: /Host/home/ilg/Work/riscv-none-elf-gcc-12.2.0-1/linux-x64/sources/gcc-12.2.0/configure --prefix=/Host/home/ilg/Work/riscv-none-elf-gcc-12.2.0-1/linux-x64/install/riscv-none-elf-gcc --prefix=/Host/home/ilg/Work/riscv-none-elf-gcc-12.2.0-1/linux-x64/install/riscv-none-elf-gcc --infodir=/Host/home/ilg/Work/riscv-none-elf-gcc-12.2.0-1/linux-x64/install/riscv-none-elf-gcc/share/doc/info --mandir=/Host/home/ilg/Work/riscv-none-elf-gcc-12.2.0-1/linux-x64/install/riscv-none-elf-gcc/share/doc/man --htmldir=/Host/home/ilg/Work/riscv-none-elf-gcc-12.2.0-1/linux-x64/install/riscv-none-elf-gcc/share/doc/html --pdfdir=/Host/home/ilg/Work/riscv-none-elf-gcc-12.2.0-1/linux-x64/install/riscv-none-elf-gcc/share/doc/pdf --build=x86_64-pc-linux-gnu --host=x86_64-pc-linux-gnu --target=riscv-none-elf --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libsanitizer --disable-libssp --disable-nls --disable-shared --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++,fortran --with-gmp=/Host/home/ilg/Work/riscv-none-elf-gcc-12.2.0-1/linux-x64/install/libs --with-newlib --with-pkgversion='xPack GNU RISC-V Embedded GCC x86_64' --with-gnu-as --with-gnu-ld --with-system-zlib --with-sysroot=/Host/home/ilg/Work/riscv-none-elf-gcc-12.2.0-1/linux-x64/install/riscv-none-elf-gcc/riscv-none-elf --with-native-system-header-dir=/include --with-abi=ilp32 --with-arch=rv32imac --enable-multilib
+Thread model: single
+Supported LTO compression algorithms: zlib
+gcc version 12.2.0 (xPack GNU RISC-V Embedded GCC x86_64) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_15eb4.dir/CMakeCCompilerABI.c.obj' '-c' '-march=rv32imac' '-mabi=ilp32' '-misa-spec=20191213' '-march=rv32imac' '-dumpdir' 'CMakeFiles/cmTC_15eb4.dir/'
+ /home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/../libexec/gcc/riscv-none-elf/12.2.0/cc1 -quiet -v -iprefix /home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/../lib/gcc/riscv-none-elf/12.2.0/ -isysroot /home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/../riscv-none-elf /usr/share/cmake-3.24/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_15eb4.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -march=rv32imac -mabi=ilp32 -misa-spec=20191213 -march=rv32imac -version -o /tmp/ccl2lSFv.s
+GNU C17 (xPack GNU RISC-V Embedded GCC x86_64) version 12.2.0 (riscv-none-elf)
+	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/../lib/gcc/../../lib/gcc/riscv-none-elf/12.2.0/include"
+ignoring nonexistent directory "/home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/../riscv-none-elf/usr/local/include"
+ignoring duplicate directory "/home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/../lib/gcc/../../lib/gcc/riscv-none-elf/12.2.0/include-fixed"
+ignoring duplicate directory "/home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/../lib/gcc/../../lib/gcc/riscv-none-elf/12.2.0/../../../../riscv-none-elf/include"
+ignoring duplicate directory "/home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/../riscv-none-elf/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/../lib/gcc/riscv-none-elf/12.2.0/include
+ /home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/../lib/gcc/riscv-none-elf/12.2.0/include-fixed
+ /home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/../lib/gcc/riscv-none-elf/12.2.0/../../../../riscv-none-elf/include
+End of search list.
+GNU C17 (xPack GNU RISC-V Embedded GCC x86_64) version 12.2.0 (riscv-none-elf)
+	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 4acdc410c467f5dbe32a731f68ff0c47
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_15eb4.dir/CMakeCCompilerABI.c.obj' '-c' '-march=rv32imac' '-mabi=ilp32' '-misa-spec=20191213' '-march=rv32imac' '-dumpdir' 'CMakeFiles/cmTC_15eb4.dir/'
+ /home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/../lib/gcc/riscv-none-elf/12.2.0/../../../../riscv-none-elf/bin/as -v --traditional-format -march=rv32imac -march=rv32imac -mabi=ilp32 -misa-spec=20191213 -o CMakeFiles/cmTC_15eb4.dir/CMakeCCompilerABI.c.obj /tmp/ccl2lSFv.s
+GNU assembler version 2.38 (riscv-none-elf) using BFD version (xPack GNU RISC-V Embedded GCC x86_64) 2.38
+COMPILER_PATH=/home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/../libexec/gcc/riscv-none-elf/12.2.0/:/home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/../libexec/gcc/:/home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/../lib/gcc/riscv-none-elf/12.2.0/../../../../riscv-none-elf/bin/
+LIBRARY_PATH=/home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/../lib/gcc/riscv-none-elf/12.2.0/:/home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/../lib/gcc/:/home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/../lib/gcc/riscv-none-elf/12.2.0/../../../../riscv-none-elf/lib/:/home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/../riscv-none-elf/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_15eb4.dir/CMakeCCompilerABI.c.obj' '-c' '-march=rv32imac' '-mabi=ilp32' '-misa-spec=20191213' '-march=rv32imac' '-dumpdir' 'CMakeFiles/cmTC_15eb4.dir/CMakeCCompilerABI.c.'
+[2/2] Linking C executable cmTC_15eb4
+Using built-in specs.
+COLLECT_GCC=/home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/riscv-none-elf-gcc
+COLLECT_LTO_WRAPPER=/home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/../libexec/gcc/riscv-none-elf/12.2.0/lto-wrapper
+Target: riscv-none-elf
+Configured with: /Host/home/ilg/Work/riscv-none-elf-gcc-12.2.0-1/linux-x64/sources/gcc-12.2.0/configure --prefix=/Host/home/ilg/Work/riscv-none-elf-gcc-12.2.0-1/linux-x64/install/riscv-none-elf-gcc --prefix=/Host/home/ilg/Work/riscv-none-elf-gcc-12.2.0-1/linux-x64/install/riscv-none-elf-gcc --infodir=/Host/home/ilg/Work/riscv-none-elf-gcc-12.2.0-1/linux-x64/install/riscv-none-elf-gcc/share/doc/info --mandir=/Host/home/ilg/Work/riscv-none-elf-gcc-12.2.0-1/linux-x64/install/riscv-none-elf-gcc/share/doc/man --htmldir=/Host/home/ilg/Work/riscv-none-elf-gcc-12.2.0-1/linux-x64/install/riscv-none-elf-gcc/share/doc/html --pdfdir=/Host/home/ilg/Work/riscv-none-elf-gcc-12.2.0-1/linux-x64/install/riscv-none-elf-gcc/share/doc/pdf --build=x86_64-pc-linux-gnu --host=x86_64-pc-linux-gnu --target=riscv-none-elf --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libsanitizer --disable-libssp --disable-nls --disable-shared --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++,fortran --with-gmp=/Host/home/ilg/Work/riscv-none-elf-gcc-12.2.0-1/linux-x64/install/libs --with-newlib --with-pkgversion='xPack GNU RISC-V Embedded GCC x86_64' --with-gnu-as --with-gnu-ld --with-system-zlib --with-sysroot=/Host/home/ilg/Work/riscv-none-elf-gcc-12.2.0-1/linux-x64/install/riscv-none-elf-gcc/riscv-none-elf --with-native-system-header-dir=/include --with-abi=ilp32 --with-arch=rv32imac --enable-multilib
+Thread model: single
+Supported LTO compression algorithms: zlib
+gcc version 12.2.0 (xPack GNU RISC-V Embedded GCC x86_64) 
+COMPILER_PATH=/home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/../libexec/gcc/riscv-none-elf/12.2.0/:/home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/../libexec/gcc/:/home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/../lib/gcc/riscv-none-elf/12.2.0/../../../../riscv-none-elf/bin/
+LIBRARY_PATH=/home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/../lib/gcc/riscv-none-elf/12.2.0/:/home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/../lib/gcc/:/home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/../lib/gcc/riscv-none-elf/12.2.0/../../../../riscv-none-elf/lib/:/home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/../riscv-none-elf/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_15eb4' '-march=rv32imac' '-mabi=ilp32' '-misa-spec=20191213' '-march=rv32imac' '-dumpdir' 'cmTC_15eb4.'
+ /home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/../libexec/gcc/riscv-none-elf/12.2.0/collect2 -plugin /home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/../libexec/gcc/riscv-none-elf/12.2.0/liblto_plugin.so -plugin-opt=/home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/../libexec/gcc/riscv-none-elf/12.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cci8KyMX.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgloss -plugin-opt=-pass-through=-lgcc --sysroot=/home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/../riscv-none-elf -melf32lriscv -o cmTC_15eb4 /home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/../lib/gcc/riscv-none-elf/12.2.0/../../../../riscv-none-elf/lib/crt0.o /home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/../lib/gcc/riscv-none-elf/12.2.0/crtbegin.o -L/home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/../lib/gcc/riscv-none-elf/12.2.0 -L/home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/../lib/gcc -L/home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/../lib/gcc/riscv-none-elf/12.2.0/../../../../riscv-none-elf/lib -L/home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/../riscv-none-elf/lib CMakeFiles/cmTC_15eb4.dir/CMakeCCompilerABI.c.obj -lgcc --start-group -lc -lgloss --end-group -lgcc /home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/../lib/gcc/riscv-none-elf/12.2.0/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_15eb4' '-march=rv32imac' '-mabi=ilp32' '-misa-spec=20191213' '-march=rv32imac' '-dumpdir' 'cmTC_15eb4.'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/../lib/gcc/riscv-none-elf/12.2.0/include]
+    add: [/home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/../lib/gcc/riscv-none-elf/12.2.0/include-fixed]
+    add: [/home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/../lib/gcc/riscv-none-elf/12.2.0/../../../../riscv-none-elf/include]
+  end of search list found
+  collapse include dir [/home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/../lib/gcc/riscv-none-elf/12.2.0/include] ==> [/home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/lib/gcc/riscv-none-elf/12.2.0/include]
+  collapse include dir [/home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/../lib/gcc/riscv-none-elf/12.2.0/include-fixed] ==> [/home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/lib/gcc/riscv-none-elf/12.2.0/include-fixed]
+  collapse include dir [/home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/../lib/gcc/riscv-none-elf/12.2.0/../../../../riscv-none-elf/include] ==> [/home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/riscv-none-elf/include]
+  implicit include dirs: [/home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/lib/gcc/riscv-none-elf/12.2.0/include;/home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/lib/gcc/riscv-none-elf/12.2.0/include-fixed;/home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/riscv-none-elf/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(riscv-none-elf-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/fab/sharefile/projects/GD32VF103_led_light/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/ninja cmTC_15eb4 && [1/2] Building C object CMakeFiles/cmTC_15eb4.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/riscv-none-elf-gcc]
+  ignore line: [Target: riscv-none-elf]
+  ignore line: [Configured with: /Host/home/ilg/Work/riscv-none-elf-gcc-12.2.0-1/linux-x64/sources/gcc-12.2.0/configure --prefix=/Host/home/ilg/Work/riscv-none-elf-gcc-12.2.0-1/linux-x64/install/riscv-none-elf-gcc --prefix=/Host/home/ilg/Work/riscv-none-elf-gcc-12.2.0-1/linux-x64/install/riscv-none-elf-gcc --infodir=/Host/home/ilg/Work/riscv-none-elf-gcc-12.2.0-1/linux-x64/install/riscv-none-elf-gcc/share/doc/info --mandir=/Host/home/ilg/Work/riscv-none-elf-gcc-12.2.0-1/linux-x64/install/riscv-none-elf-gcc/share/doc/man --htmldir=/Host/home/ilg/Work/riscv-none-elf-gcc-12.2.0-1/linux-x64/install/riscv-none-elf-gcc/share/doc/html --pdfdir=/Host/home/ilg/Work/riscv-none-elf-gcc-12.2.0-1/linux-x64/install/riscv-none-elf-gcc/share/doc/pdf --build=x86_64-pc-linux-gnu --host=x86_64-pc-linux-gnu --target=riscv-none-elf --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libsanitizer --disable-libssp --disable-nls --disable-shared --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++,fortran --with-gmp=/Host/home/ilg/Work/riscv-none-elf-gcc-12.2.0-1/linux-x64/install/libs --with-newlib --with-pkgversion='xPack GNU RISC-V Embedded GCC x86_64' --with-gnu-as --with-gnu-ld --with-system-zlib --with-sysroot=/Host/home/ilg/Work/riscv-none-elf-gcc-12.2.0-1/linux-x64/install/riscv-none-elf-gcc/riscv-none-elf --with-native-system-header-dir=/include --with-abi=ilp32 --with-arch=rv32imac --enable-multilib]
+  ignore line: [Thread model: single]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 12.2.0 (xPack GNU RISC-V Embedded GCC x86_64) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_15eb4.dir/CMakeCCompilerABI.c.obj' '-c' '-march=rv32imac' '-mabi=ilp32' '-misa-spec=20191213' '-march=rv32imac' '-dumpdir' 'CMakeFiles/cmTC_15eb4.dir/']
+  ignore line: [ /home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/../libexec/gcc/riscv-none-elf/12.2.0/cc1 -quiet -v -iprefix /home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/../lib/gcc/riscv-none-elf/12.2.0/ -isysroot /home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/../riscv-none-elf /usr/share/cmake-3.24/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_15eb4.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -march=rv32imac -mabi=ilp32 -misa-spec=20191213 -march=rv32imac -version -o /tmp/ccl2lSFv.s]
+  ignore line: [GNU C17 (xPack GNU RISC-V Embedded GCC x86_64) version 12.2.0 (riscv-none-elf)]
+  ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/../lib/gcc/../../lib/gcc/riscv-none-elf/12.2.0/include"]
+  ignore line: [ignoring nonexistent directory "/home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/../riscv-none-elf/usr/local/include"]
+  ignore line: [ignoring duplicate directory "/home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/../lib/gcc/../../lib/gcc/riscv-none-elf/12.2.0/include-fixed"]
+  ignore line: [ignoring duplicate directory "/home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/../lib/gcc/../../lib/gcc/riscv-none-elf/12.2.0/../../../../riscv-none-elf/include"]
+  ignore line: [ignoring duplicate directory "/home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/../riscv-none-elf/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/../lib/gcc/riscv-none-elf/12.2.0/include]
+  ignore line: [ /home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/../lib/gcc/riscv-none-elf/12.2.0/include-fixed]
+  ignore line: [ /home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/../lib/gcc/riscv-none-elf/12.2.0/../../../../riscv-none-elf/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (xPack GNU RISC-V Embedded GCC x86_64) version 12.2.0 (riscv-none-elf)]
+  ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 4acdc410c467f5dbe32a731f68ff0c47]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_15eb4.dir/CMakeCCompilerABI.c.obj' '-c' '-march=rv32imac' '-mabi=ilp32' '-misa-spec=20191213' '-march=rv32imac' '-dumpdir' 'CMakeFiles/cmTC_15eb4.dir/']
+  ignore line: [ /home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/../lib/gcc/riscv-none-elf/12.2.0/../../../../riscv-none-elf/bin/as -v --traditional-format -march=rv32imac -march=rv32imac -mabi=ilp32 -misa-spec=20191213 -o CMakeFiles/cmTC_15eb4.dir/CMakeCCompilerABI.c.obj /tmp/ccl2lSFv.s]
+  ignore line: [GNU assembler version 2.38 (riscv-none-elf) using BFD version (xPack GNU RISC-V Embedded GCC x86_64) 2.38]
+  ignore line: [COMPILER_PATH=/home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/../libexec/gcc/riscv-none-elf/12.2.0/:/home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/../libexec/gcc/:/home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/../lib/gcc/riscv-none-elf/12.2.0/../../../../riscv-none-elf/bin/]
+  ignore line: [LIBRARY_PATH=/home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/../lib/gcc/riscv-none-elf/12.2.0/:/home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/../lib/gcc/:/home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/../lib/gcc/riscv-none-elf/12.2.0/../../../../riscv-none-elf/lib/:/home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/../riscv-none-elf/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_15eb4.dir/CMakeCCompilerABI.c.obj' '-c' '-march=rv32imac' '-mabi=ilp32' '-misa-spec=20191213' '-march=rv32imac' '-dumpdir' 'CMakeFiles/cmTC_15eb4.dir/CMakeCCompilerABI.c.']
+  ignore line: [[2/2] Linking C executable cmTC_15eb4]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/riscv-none-elf-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/../libexec/gcc/riscv-none-elf/12.2.0/lto-wrapper]
+  ignore line: [Target: riscv-none-elf]
+  ignore line: [Configured with: /Host/home/ilg/Work/riscv-none-elf-gcc-12.2.0-1/linux-x64/sources/gcc-12.2.0/configure --prefix=/Host/home/ilg/Work/riscv-none-elf-gcc-12.2.0-1/linux-x64/install/riscv-none-elf-gcc --prefix=/Host/home/ilg/Work/riscv-none-elf-gcc-12.2.0-1/linux-x64/install/riscv-none-elf-gcc --infodir=/Host/home/ilg/Work/riscv-none-elf-gcc-12.2.0-1/linux-x64/install/riscv-none-elf-gcc/share/doc/info --mandir=/Host/home/ilg/Work/riscv-none-elf-gcc-12.2.0-1/linux-x64/install/riscv-none-elf-gcc/share/doc/man --htmldir=/Host/home/ilg/Work/riscv-none-elf-gcc-12.2.0-1/linux-x64/install/riscv-none-elf-gcc/share/doc/html --pdfdir=/Host/home/ilg/Work/riscv-none-elf-gcc-12.2.0-1/linux-x64/install/riscv-none-elf-gcc/share/doc/pdf --build=x86_64-pc-linux-gnu --host=x86_64-pc-linux-gnu --target=riscv-none-elf --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libsanitizer --disable-libssp --disable-nls --disable-shared --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++,fortran --with-gmp=/Host/home/ilg/Work/riscv-none-elf-gcc-12.2.0-1/linux-x64/install/libs --with-newlib --with-pkgversion='xPack GNU RISC-V Embedded GCC x86_64' --with-gnu-as --with-gnu-ld --with-system-zlib --with-sysroot=/Host/home/ilg/Work/riscv-none-elf-gcc-12.2.0-1/linux-x64/install/riscv-none-elf-gcc/riscv-none-elf --with-native-system-header-dir=/include --with-abi=ilp32 --with-arch=rv32imac --enable-multilib]
+  ignore line: [Thread model: single]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 12.2.0 (xPack GNU RISC-V Embedded GCC x86_64) ]
+  ignore line: [COMPILER_PATH=/home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/../libexec/gcc/riscv-none-elf/12.2.0/:/home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/../libexec/gcc/:/home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/../lib/gcc/riscv-none-elf/12.2.0/../../../../riscv-none-elf/bin/]
+  ignore line: [LIBRARY_PATH=/home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/../lib/gcc/riscv-none-elf/12.2.0/:/home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/../lib/gcc/:/home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/../lib/gcc/riscv-none-elf/12.2.0/../../../../riscv-none-elf/lib/:/home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/../riscv-none-elf/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_15eb4' '-march=rv32imac' '-mabi=ilp32' '-misa-spec=20191213' '-march=rv32imac' '-dumpdir' 'cmTC_15eb4.']
+  link line: [ /home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/../libexec/gcc/riscv-none-elf/12.2.0/collect2 -plugin /home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/../libexec/gcc/riscv-none-elf/12.2.0/liblto_plugin.so -plugin-opt=/home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/../libexec/gcc/riscv-none-elf/12.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cci8KyMX.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgloss -plugin-opt=-pass-through=-lgcc --sysroot=/home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/../riscv-none-elf -melf32lriscv -o cmTC_15eb4 /home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/../lib/gcc/riscv-none-elf/12.2.0/../../../../riscv-none-elf/lib/crt0.o /home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/../lib/gcc/riscv-none-elf/12.2.0/crtbegin.o -L/home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/../lib/gcc/riscv-none-elf/12.2.0 -L/home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/../lib/gcc -L/home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/../lib/gcc/riscv-none-elf/12.2.0/../../../../riscv-none-elf/lib -L/home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/../riscv-none-elf/lib CMakeFiles/cmTC_15eb4.dir/CMakeCCompilerABI.c.obj -lgcc --start-group -lc -lgloss --end-group -lgcc /home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/../lib/gcc/riscv-none-elf/12.2.0/crtend.o]
+    arg [/home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/../libexec/gcc/riscv-none-elf/12.2.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/../libexec/gcc/riscv-none-elf/12.2.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/../libexec/gcc/riscv-none-elf/12.2.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cci8KyMX.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgloss] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/../riscv-none-elf] ==> ignore
+    arg [-melf32lriscv] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_15eb4] ==> ignore
+    arg [/home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/../lib/gcc/riscv-none-elf/12.2.0/../../../../riscv-none-elf/lib/crt0.o] ==> obj [/home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/../lib/gcc/riscv-none-elf/12.2.0/../../../../riscv-none-elf/lib/crt0.o]
+    arg [/home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/../lib/gcc/riscv-none-elf/12.2.0/crtbegin.o] ==> obj [/home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/../lib/gcc/riscv-none-elf/12.2.0/crtbegin.o]
+    arg [-L/home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/../lib/gcc/riscv-none-elf/12.2.0] ==> dir [/home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/../lib/gcc/riscv-none-elf/12.2.0]
+    arg [-L/home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/../lib/gcc] ==> dir [/home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/../lib/gcc]
+    arg [-L/home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/../lib/gcc/riscv-none-elf/12.2.0/../../../../riscv-none-elf/lib] ==> dir [/home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/../lib/gcc/riscv-none-elf/12.2.0/../../../../riscv-none-elf/lib]
+    arg [-L/home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/../riscv-none-elf/lib] ==> dir [/home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/../riscv-none-elf/lib]
+    arg [CMakeFiles/cmTC_15eb4.dir/CMakeCCompilerABI.c.obj] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--start-group] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgloss] ==> lib [gloss]
+    arg [--end-group] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [/home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/../lib/gcc/riscv-none-elf/12.2.0/crtend.o] ==> obj [/home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/../lib/gcc/riscv-none-elf/12.2.0/crtend.o]
+  collapse obj [/home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/../lib/gcc/riscv-none-elf/12.2.0/../../../../riscv-none-elf/lib/crt0.o] ==> [/home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/riscv-none-elf/lib/crt0.o]
+  collapse obj [/home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/../lib/gcc/riscv-none-elf/12.2.0/crtbegin.o] ==> [/home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/lib/gcc/riscv-none-elf/12.2.0/crtbegin.o]
+  collapse obj [/home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/../lib/gcc/riscv-none-elf/12.2.0/crtend.o] ==> [/home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/lib/gcc/riscv-none-elf/12.2.0/crtend.o]
+  collapse library dir [/home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/../lib/gcc/riscv-none-elf/12.2.0] ==> [/home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/lib/gcc/riscv-none-elf/12.2.0]
+  collapse library dir [/home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/../lib/gcc] ==> [/home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/lib/gcc]
+  collapse library dir [/home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/../lib/gcc/riscv-none-elf/12.2.0/../../../../riscv-none-elf/lib] ==> [/home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/riscv-none-elf/lib]
+  collapse library dir [/home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/../riscv-none-elf/lib] ==> [/home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/riscv-none-elf/lib]
+  implicit libs: [gcc;c;gloss;gcc]
+  implicit objs: [/home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/riscv-none-elf/lib/crt0.o;/home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/lib/gcc/riscv-none-elf/12.2.0/crtbegin.o;/home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/lib/gcc/riscv-none-elf/12.2.0/crtend.o]
+  implicit dirs: [/home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/lib/gcc/riscv-none-elf/12.2.0;/home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/lib/gcc;/home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/riscv-none-elf/lib]
+  implicit fwks: []
+
+

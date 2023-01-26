@@ -1,0 +1,26 @@
+{
+    "files.associations": {
+        "stdio.h": "c",
+        "systick.h": "c",
+        "gd32f4xx.h": "c",
+        "gd32f450i_eval.h": "c",
+        "diskio.h": "c",
+        "integer.h": "c",
+        "gd32vf103.h": "c",
+        "gd32vf103v_eval.h": "c",
+        "system_gd32vf103.h": "c",
+        "stdint.h": "c",
+        "stdint-gcc.h": "c",
+        "n200_func.h": "c",
+        "riscv_encoding.h": "c",
+        "gd32vf103_bkp.h": "c",
+        "gd32vf103_adc.h": "c",
+        "stub.h": "c",
+        "stddef.h": "c",
+        "riscv_const.h": "c",
+        "gd32vf103v_lcd_eval.h": "c",
+        "picture.h": "c",
+        "exmc_lcd.h": "c",
+        "ili9320.h": "c"
+    }
+}

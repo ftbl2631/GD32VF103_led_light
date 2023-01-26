@@ -1,0 +1,25 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        
+
+        {
+            "cwd": "${workspaceFolder}",
+            "executable": "${workspaceFolder}/build/LED_GD32VF103.elf",
+            "name": "Debug with JLink",
+            "request": "launch",
+            "type": "cortex-debug",
+            "serverpath": "/usr/share/JLink_Linux_V764d_x86_64/JLinkGDBServerCLExe", 
+            "device": "GD32VF103",
+            "interface": "jtag",
+            //"runToEntryPoint": "main",
+            "runToEntryPoint": "Reset_Handler",
+            "showDevDebugOutput": "none",
+            "servertype": "jlink"
+        }
+
+    ]
+}

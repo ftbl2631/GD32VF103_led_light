@@ -1,0 +1,23 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/src",
+                "${workspaceFolder}/GD32VF103_SDK_V1.0.0/Include",
+                "${workspaceFolder}/devices",
+                "${workspaceFolder}/RISCV/drivers",
+                "${workspaceFolder}/RISCV/stubs",
+                "/usr/lib/gcc/riscv64-unknown-elf/12.1.0/include"
+            ],
+            "defines": [],
+            "compilerPath": "/home/fab/sharefile/tools/riscv-none-elf-gcc/xpack-riscv-none-elf-gcc-12.2.0-1/bin/riscv-none-elf-gcc",
+            "cStandard": "gnu17",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "linux-gcc-x64",
+            "configurationProvider": "ms-vscode.makefile-tools"
+        }
+    ],
+    "version": 4
+}
