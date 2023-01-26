@@ -13,3 +13,8 @@ GigaDevice logo and website on the LCD screen.
 
   JP13 and JP4 must be fitted to EXMC. 
 
+
+注意： 遇到的几个问题
+1、riscv编译器的设定，可以使用在文件夹中指定的方法，也可以install之后使用
+2、gcc库的匹配性，需要正确设置编译器参数
+3、使用cmake以便于移植
