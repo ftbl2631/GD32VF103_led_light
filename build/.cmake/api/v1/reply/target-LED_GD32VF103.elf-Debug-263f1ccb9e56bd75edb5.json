@@ -28,7 +28,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 98,
+				"line" : 95,
 				"parent" : 0
 			},
 			{
@@ -38,15 +38,9 @@
 				"parent" : 0
 			},
 			{
-				"command" : 1,
-				"file" : 0,
-				"line" : 77,
-				"parent" : 0
-			},
-			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 104,
+				"line" : 101,
 				"parent" : 0
 			},
 			{
@@ -72,70 +66,70 @@
 					"fragment" : "-g -O2"
 				},
 				{
-					"backtrace" : 5,
+					"backtrace" : 4,
 					"fragment" : "-march=rv32imac_zicsr"
 				},
 				{
-					"backtrace" : 5,
+					"backtrace" : 4,
 					"fragment" : "-mabi=ilp32"
 				},
 				{
-					"backtrace" : 5,
+					"backtrace" : 4,
 					"fragment" : "-mcmodel=medlow"
 				},
 				{
-					"backtrace" : 5,
+					"backtrace" : 4,
 					"fragment" : "-msmall-data-limit=8"
 				},
 				{
-					"backtrace" : 5,
+					"backtrace" : 4,
 					"fragment" : "-fmessage-length=0"
 				},
 				{
-					"backtrace" : 5,
+					"backtrace" : 4,
 					"fragment" : "-fsigned-char"
 				},
 				{
-					"backtrace" : 5,
+					"backtrace" : 4,
 					"fragment" : "-std=gnu99"
 				},
 				{
-					"backtrace" : 5,
+					"backtrace" : 4,
 					"fragment" : "-Wall"
 				},
 				{
-					"backtrace" : 5,
+					"backtrace" : 4,
 					"fragment" : "-Werror"
 				},
 				{
-					"backtrace" : 5,
+					"backtrace" : 4,
 					"fragment" : "-fdata-sections"
 				},
 				{
-					"backtrace" : 5,
+					"backtrace" : 4,
 					"fragment" : "-ffunction-sections"
 				}
 			],
 			"includes" : 
 			[
 				{
-					"backtrace" : 6,
+					"backtrace" : 5,
 					"path" : "/home/fab/sharefile/projects/GD32VF103_led_light/devices"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 5,
 					"path" : "/home/fab/sharefile/projects/GD32VF103_led_light/src"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 5,
 					"path" : "/home/fab/sharefile/projects/GD32VF103_led_light/RISCV/drivers"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 5,
 					"path" : "/home/fab/sharefile/projects/GD32VF103_led_light/GD32VF103_SDK_V1.0.0/Include"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 5,
 					"path" : "/home/fab/sharefile/projects/GD32VF103_led_light/LCD_common"
 				}
 			],
@@ -161,70 +155,70 @@
 					"fragment" : "-x assembler-with-cpp -g"
 				},
 				{
-					"backtrace" : 5,
+					"backtrace" : 4,
 					"fragment" : "-march=rv32imac_zicsr"
 				},
 				{
-					"backtrace" : 5,
+					"backtrace" : 4,
 					"fragment" : "-mabi=ilp32"
 				},
 				{
-					"backtrace" : 5,
+					"backtrace" : 4,
 					"fragment" : "-mcmodel=medlow"
 				},
 				{
-					"backtrace" : 5,
+					"backtrace" : 4,
 					"fragment" : "-msmall-data-limit=8"
 				},
 				{
-					"backtrace" : 5,
+					"backtrace" : 4,
 					"fragment" : "-fmessage-length=0"
 				},
 				{
-					"backtrace" : 5,
+					"backtrace" : 4,
 					"fragment" : "-fsigned-char"
 				},
 				{
-					"backtrace" : 5,
+					"backtrace" : 4,
 					"fragment" : "-std=gnu99"
 				},
 				{
-					"backtrace" : 5,
+					"backtrace" : 4,
 					"fragment" : "-Wall"
 				},
 				{
-					"backtrace" : 5,
+					"backtrace" : 4,
 					"fragment" : "-Werror"
 				},
 				{
-					"backtrace" : 5,
+					"backtrace" : 4,
 					"fragment" : "-fdata-sections"
 				},
 				{
-					"backtrace" : 5,
+					"backtrace" : 4,
 					"fragment" : "-ffunction-sections"
 				}
 			],
 			"includes" : 
 			[
 				{
-					"backtrace" : 6,
+					"backtrace" : 5,
 					"path" : "/home/fab/sharefile/projects/GD32VF103_led_light/devices"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 5,
 					"path" : "/home/fab/sharefile/projects/GD32VF103_led_light/src"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 5,
 					"path" : "/home/fab/sharefile/projects/GD32VF103_led_light/RISCV/drivers"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 5,
 					"path" : "/home/fab/sharefile/projects/GD32VF103_led_light/GD32VF103_SDK_V1.0.0/Include"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 5,
 					"path" : "/home/fab/sharefile/projects/GD32VF103_led_light/LCD_common"
 				}
 			],
@@ -239,7 +233,7 @@
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 4,
+			"backtrace" : 3,
 			"id" : "drvlib_gd32vf103::@6890427a1f51a3e7e1df"
 		}
 	],
@@ -308,16 +302,6 @@
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "-Wl,-Map,\\\"GD32VF103_LED_LIGHT.map\\\"",
-				"role" : "flags"
-			},
-			{
-				"backtrace" : 3,
-				"fragment" : "--data-sections",
-				"role" : "flags"
-			},
-			{
-				"backtrace" : 4,
 				"fragment" : "libdrvlib_gd32vf103.a",
 				"role" : "libraries"
 			}

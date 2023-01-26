@@ -74,11 +74,8 @@ target_include_directories(drvlib_gd32vf103 PRIVATE
 
 set(LINKER_SCRIPT ${PROJECT_SOURCE_DIR}/devices/GD32VF103_lds/GD32VF103xB.lds)
 add_link_options(${MCU} -nostartfiles -specs=nano.specs -Xlinker -T${LINKER_SCRIPT})
-add_link_options(-Wl,-Map,"GD32VF103_LED_LIGHT.map" --data-sections) 
-#set(CMAKE_EXE_LINKER_FLAGS
-#" -nostartfiles   -fno-exceptions  -Xlinker -T${LINKER_SCRIPT} -Wl,-Map=${PROJECT_BINARY_DIR}/${PROJECT_NAME}.map"
-#"-mno-save-restore -Os -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wunused -Wuninitialized -g -T${LINKER_SCRIPT} -nostartfiles -Xlinker --gc-sections -L"../" -Wl,-Map=${PROJECT_BINARY_DIR}/${PROJECT_NAME}.map --specs=nano.specs --specs=nosys.specs"
-#)
+#add_link_options(-Wl,-Map, GD32VF103_LED_LIGHT.map --data-sections) 
+
 
 #AUX_SOURCE_DIRECTORY(. DIR_SRCS)
 # 源文件：寻找目录下所有的源文件，加到执行目标
