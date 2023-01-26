@@ -1,8 +1,8 @@
 # GD32VF103_led_light
 /*!
-    \file    readme.txt
+    file    readme.txt
 
-    \version 2023-01-25, V1.0.0, firmware for GD32VF103
+    version 2023-01-25, V1.0.0, firmware for GD32VF103
 
 */
 
