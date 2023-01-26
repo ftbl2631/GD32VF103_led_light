@@ -109,8 +109,6 @@ target_include_directories(${EXECTABLE_NAME}.elf PRIVATE
     ${PROJECT_SOURCE_DIR}/devices
     ${PROJECT_SOURCE_DIR}/src
     #${PROJECT_SOURCE_DIR}/Utilities
-    #${PROJECT_SOURCE_DIR}/bsp
-    #${DRIVER}
 )
 
 
